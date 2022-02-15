@@ -784,24 +784,20 @@
                       
                     </div>
                     <!-- Bottom CTAs -->
-                    <div class="p-1 bg-gray-50">
-                        <a
-                            href="#"
-                            class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-secondary bg-gray-50 hover:bg-gray-100"
+                    <div class="d-none p-1 bg-primary sm:bg-gray-50">
+                        
+                            <button
+                            @click="contactModalOpen = true"
+                            class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-white sm:text-secondary  hover:bg-gray-100"
                             >
-                            Send Us a Text
-                            <!-- text -->
-                            <!-- are these 2 correct? -->
-                            </a
-                        >
-                        <a
-                            href="#"
-                            class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-secondary bg-gray-50 hover:bg-gray-100"
-                            >
-                            
-                            <!-- none -->
-                            </a
-                        >
+                                Send us a Text
+                            </button>
+                        
+                         
+                     
+                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1228,14 +1224,18 @@
                 <img class="h-[80px]" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/e5de9877-9bf0-4b1f-bb88-2e34ff318cca.jpeg" alt="" />
                 
                 <p class="text-base text-gray-500">
-                    Quality Gutter Cleaning & Soft Washing service in Kane and Dekalb County and surrounding areas. We provide professional service and offer free quotes. Reach out today to learn how we can help.
+                    J&amp;J Power Washing and Gutter Cleaning<br/>
+                     
+                        Kane County, IL <br/>
+                    
+                     +1 630-465-1638
                     <!-- Is this supposed to be here and correct?  -->
                     <!-- The finest landscaping in Austin & surrounding areas. Exceptional, professional service. You are our priority! -->
                 </p>
                 <div class="flex space-x-6">
                     <!-- are these conditional? and linked to corret links? -->
                     
-                    <a href="https://facebook.com/JAYANDJAYPAINTING" class="text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 ring-primary ring-opacity-75">
+                    <a href="https://www.facebook.com/jandjhousewashing" class="text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 ring-primary ring-opacity-75">
                         <span class="sr-only">Facebook</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path
@@ -1261,7 +1261,7 @@
                     
                     
                     
-                    <a href="https://g.page/j-and-j-power-washing-and-gutter?share" class="text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 ring-primary ring-opacity-75">
+                    <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x880f2f8d4ff9093b:0x284a3bb5be3841de?source=g.page.share" class="text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 ring-primary ring-opacity-75">
                         <span class="sr-only">Google</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M20 10.2222C20 9.40001 19.9319 8.80001 19.7846 8.1778H10.2041V11.8889H15.8276C15.7143 12.8111 15.1021 14.2 13.7415 15.1333L13.7224 15.2575L16.7516 17.5573L16.9615 17.5778C18.8889 15.8333 20 13.2667 20 10.2222Z" fill="#9CA3AF"/>
@@ -1372,7 +1372,7 @@
                 <div class="md:grid md:grid-cols-2 md:gap-8">
                     <!-- Locations Links -->
                     <div>
-                        <h3 class="text-sm font-semibold tracking-wider text-gray-400 uppercase">Locations</h3>
+                        <h3 class="text-sm font-semibold tracking-wider text-gray-400 uppercase">Service Areas</h3>
                         <ul role="list" class="mt-4 -mx-1 space-y-4">
                             
                             <li>
@@ -1426,7 +1426,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Monday: 8:00am - 6:00pm</a
+                                    >Sun: 8:00am - 6:00pm</a
                                 >
                             </li>
                             
@@ -1434,7 +1434,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Tuesday: 8:00am - 6:00pm</a
+                                    >Mon: 8:00am - 6:00pm</a
                                 >
                             </li>
                             
@@ -1442,7 +1442,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Wednesday: 8:00am - 6:00pm</a
+                                    >Tues: 8:00am - 6:00pm</a
                                 >
                             </li>
                             
@@ -1450,7 +1450,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Thursday: 0:00am - 0:00am</a
+                                    >Wed: 8:00am - 6:00pm</a
                                 >
                             </li>
                             
@@ -1458,7 +1458,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Friday: 0:00am - 0:00am</a
+                                    >Thu: 0:00am - 0:00am</a
                                 >
                             </li>
                             
@@ -1466,7 +1466,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Saturday: 8:00am - 6:00pm</a
+                                    >Fri: 0:00am - 0:00am</a
                                 >
                             </li>
                             
@@ -1474,7 +1474,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Sunday: 8:00am - 6:00pm</a
+                                    >Sat: 8:00am - 6:00pm</a
                                 >
                             </li>
                             
@@ -1665,52 +1665,52 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-114499"
-                                            name="114499"
+                                            id="contact-service-119404"
+                                            name="119404"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-114499" class="ml-3 text-sm font-medium text-gray-700">Home Softwash</label>
+                                        <label for="contact-label-service-119404" class="ml-3 text-sm font-medium text-gray-700">Home Softwash</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-114500"
-                                            name="114500"
+                                            id="contact-service-119405"
+                                            name="119405"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-114500" class="ml-3 text-sm font-medium text-gray-700">Power Washing</label>
+                                        <label for="contact-label-service-119405" class="ml-3 text-sm font-medium text-gray-700">Power Washing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-114501"
-                                            name="114501"
+                                            id="contact-service-119406"
+                                            name="119406"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-114501" class="ml-3 text-sm font-medium text-gray-700">Gutter cleaning</label>
+                                        <label for="contact-label-service-119406" class="ml-3 text-sm font-medium text-gray-700">Gutter cleaning</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-114502"
-                                            name="114502"
+                                            id="contact-service-119407"
+                                            name="119407"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-114502" class="ml-3 text-sm font-medium text-gray-700">Gutter Guard Installation</label>
+                                        <label for="contact-label-service-119407" class="ml-3 text-sm font-medium text-gray-700">Gutter Guard Installation</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-114503"
-                                            name="114503"
+                                            id="contact-service-119408"
+                                            name="119408"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-114503" class="ml-3 text-sm font-medium text-gray-700">Dryer Vent Cleaning</label>
+                                        <label for="contact-label-service-119408" class="ml-3 text-sm font-medium text-gray-700">Dryer Vent Cleaning</label>
                                     </div>
                                 
                             </div>
@@ -1868,7 +1868,7 @@
                     <!-- Google Link -->
                     
                     <li>
-                        <a href="https://https://g.page/j-and-j-power-washing-and-gutter?share" class="inline-flex w-full px-5 py-2.5 text-sm font-medium transition border-2 border-transparent rounded-md bg-primary text-primary-foreground focus:outline-none hover:bg-primary-darker focus:ring-2 ring-primary ring-opacity-75 ring-offset-2">Leave a Review</a>
+                        <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x880f2f8d4ff9093b:0x284a3bb5be3841de?source=g.page.share" class="inline-flex w-full px-5 py-2.5 text-sm font-medium transition border-2 border-transparent rounded-md bg-primary text-primary-foreground focus:outline-none hover:bg-primary-darker focus:ring-2 ring-primary ring-opacity-75 ring-offset-2">Leave a Review</a>
                     </li>
                     
                     <!-- Facebook Link -->
@@ -1876,7 +1876,7 @@
                     <!-- Yelp Link -->
                     
                     <li>
-                        <a href="https://facebook.com/JAYANDJAYPAINTING/reviews" class="inline-flex w-full px-5 py-2.5 text-sm font-medium transition border-2 border-transparent rounded-md bg-primary text-primary-foreground focus:outline-none hover:bg-primary-darker focus:ring-2 ring-primary ring-opacity-75 ring-offset-2">Leave a Review</a>
+                        <a href="www.facebook.com/jandjhousewashing" class="inline-flex w-full px-5 py-2.5 text-sm font-medium transition border-2 border-transparent rounded-md bg-primary text-primary-foreground focus:outline-none hover:bg-primary-darker focus:ring-2 ring-primary ring-opacity-75 ring-offset-2">Leave a Review</a>
                     </li>
                     
                 </ul>
